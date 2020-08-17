@@ -1,0 +1,23 @@
+{
+  "name": "javascript-guide",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Han So-Ryong",
+    "email": "bruce.lean17@gmail.com"
+  },
+  "repository": "/javascript-guide",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.3.1",
+    "@vuepress/plugin-medium-zoom": "^1.3.1",
+    "gh-pages": "^3.1.0",
+    "vuepress": "^1.3.1"
+  }
+}
