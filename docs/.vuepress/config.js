@@ -5,7 +5,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Learning Javascript',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -35,30 +35,61 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: '홈',
+        link: '/',
+      },
+      {
+        text: '가이드',
         link: '/guide/',
       },
       {
-        text: 'Config',
+        text: '설치',
         link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      '/guide',
+      {
+        title: '자바스크립트 기초',
+        collapsable: false,
+        children: [
+          '/basic/variable',
+          '/basic/datatype',
+          '/basic/operator',
+          '/basic/control',
+          '/basic/function',
+          '/basic/scope',
+        ]
+      },
+      {
+        title: '2주차',
+        collapsable: true,
+        children: [
+          '/chapter2/',
+        ]
+      },
+      {
+        title: '3주차',
+        collapsable: true,
+        children: [
+          '/chapter3/',
+        ]
+      },
+      {
+        title: '4주차',
+        collapsable: true,
+        children: [
+          '/chapter4/',
+        ]
+      },
+      {
+        title: '5주차',
+        collapsable: true,
+        children: [
+          '/chapter5/',
+        ]
+      }
+    ]
   },
 
   /**
