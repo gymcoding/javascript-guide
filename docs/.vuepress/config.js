@@ -59,13 +59,14 @@ module.exports = {
           '/basic/control',
           '/basic/function',
           '/basic/scope',
+          '/basic/array',
         ]
       },
       {
-        title: '2주차',
+        title: '객체지향 프로그래밍',
         collapsable: true,
         children: [
-          '/chapter2/',
+          '/oop/',
         ]
       },
       {

@@ -143,7 +143,7 @@ console.log(TOM_JOB == KIM_JOB); // false: 심볼은 모두 서로 다릅니다.
 ```
 
 ## null과 undefined
-`null`과 `undefined`는 자바스크립트의 특별한 타입입니다. null이 가실 수 있는 값은 null 하나 뿐이며, undefined가 가질 수 있는 값도 undefined 하나뿐입니다. null과 undefined는 모두 존재하지 않는 것을 나타냅니다. 그리고 이 둘을 서로 다른 데이터 타입으로 분리한 것은 끝 없는 혼란을 낳았고, 특히 초보자들이 고생하고 있습니다.
+`null`과 `undefined`는 자바스크립트의 특별한 타입입니다. null이 가질 수 있는 값은 null 하나 뿐이며, undefined가 가질 수 있는 값도 undefined 하나뿐입니다. null과 undefined는 모두 존재하지 않는 것을 나타냅니다. 그리고 이 둘을 서로 다른 데이터 타입으로 분리한 것은 끝 없는 혼란을 낳았고, 특히 초보자들이 고생하고 있습니다.
 <br>
 
 ```javascript
