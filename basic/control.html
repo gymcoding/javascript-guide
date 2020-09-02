@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>제어문 | Learning Javascript</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/javascript-guide/assets/css/0.styles.1fcc4f54.css" as="style"><link rel="preload" href="/javascript-guide/assets/js/app.fce3bf5b.js" as="script"><link rel="preload" href="/javascript-guide/assets/js/2.422c5bd4.js" as="script"><link rel="preload" href="/javascript-guide/assets/js/11.fe5e8688.js" as="script"><link rel="prefetch" href="/javascript-guide/assets/js/10.5247b8d9.js"><link rel="prefetch" href="/javascript-guide/assets/js/12.e1953971.js"><link rel="prefetch" href="/javascript-guide/assets/js/13.533becc6.js"><link rel="prefetch" href="/javascript-guide/assets/js/14.fe943368.js"><link rel="prefetch" href="/javascript-guide/assets/js/15.402c8616.js"><link rel="prefetch" href="/javascript-guide/assets/js/16.6506d6da.js"><link rel="prefetch" href="/javascript-guide/assets/js/17.0093b53f.js"><link rel="prefetch" href="/javascript-guide/assets/js/18.cff6554c.js"><link rel="prefetch" href="/javascript-guide/assets/js/19.bb0e9b25.js"><link rel="prefetch" href="/javascript-guide/assets/js/20.ae3c206c.js"><link rel="prefetch" href="/javascript-guide/assets/js/21.aa9912df.js"><link rel="prefetch" href="/javascript-guide/assets/js/22.03a61835.js"><link rel="prefetch" href="/javascript-guide/assets/js/23.e5978985.js"><link rel="prefetch" href="/javascript-guide/assets/js/3.20b9dd30.js"><link rel="prefetch" href="/javascript-guide/assets/js/4.21364b9e.js"><link rel="prefetch" href="/javascript-guide/assets/js/5.8fbc0b2d.js"><link rel="prefetch" href="/javascript-guide/assets/js/6.8e0730b1.js"><link rel="prefetch" href="/javascript-guide/assets/js/7.40087019.js"><link rel="prefetch" href="/javascript-guide/assets/js/8.c9175806.js"><link rel="prefetch" href="/javascript-guide/assets/js/9.ada1d228.js">
+    <link rel="stylesheet" href="/javascript-guide/assets/css/0.styles.1fcc4f54.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/javascript-guide/" class="home-link router-link-active"><!----> <span class="site-name">Learning Javascript</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/javascript-guide/" class="nav-link">
+  홈
+</a></div><div class="nav-item"><a href="/javascript-guide/guide/" class="nav-link">
+  가이드
+</a></div><div class="nav-item"><a href="/javascript-guide/config/" class="nav-link">
+  설치
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/javascript-guide/" class="nav-link">
+  홈
+</a></div><div class="nav-item"><a href="/javascript-guide/guide/" class="nav-link">
+  가이드
+</a></div><div class="nav-item"><a href="/javascript-guide/config/" class="nav-link">
+  설치
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/javascript-guide/guide.html" class="sidebar-link">Introduction</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>자바스크립트 기초</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/javascript-guide/basic/variable.html" class="sidebar-link">변수, 상수</a></li><li><a href="/javascript-guide/basic/datatype.html" class="sidebar-link">데이터 타입</a></li><li><a href="/javascript-guide/basic/operator.html" class="sidebar-link">연산자</a></li><li><a href="/javascript-guide/basic/control.html" aria-current="page" class="active sidebar-link">제어문</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/javascript-guide/basic/control.html#if문" class="sidebar-link">if문</a></li><li class="sidebar-sub-header"><a href="/javascript-guide/basic/control.html#switch문" class="sidebar-link">switch문</a></li><li class="sidebar-sub-header"><a href="/javascript-guide/basic/control.html#for-for-in-for-of-문" class="sidebar-link">for, for...in, for...of 문</a></li><li class="sidebar-sub-header"><a href="/javascript-guide/basic/control.html#while-do-while-문" class="sidebar-link">while, do...while 문</a></li><li class="sidebar-sub-header"><a href="/javascript-guide/basic/control.html#continue" class="sidebar-link">continue</a></li><li class="sidebar-sub-header"><a href="/javascript-guide/basic/control.html#break" class="sidebar-link">break</a></li></ul></li><li><a href="/javascript-guide/basic/function.html" class="sidebar-link">함수</a></li><li><a href="/javascript-guide/basic/scope.html" class="sidebar-link">스코프</a></li><li><a href="/javascript-guide/basic/array.html" class="sidebar-link">배열과 배열처리</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>객체지향 프로그래밍</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>3주차</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>4주차</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>5주차</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="if문"><a href="#if문" class="header-anchor">#</a> if문</h2> <h3 id="if"><a href="#if" class="header-anchor">#</a> if</h3> <p><code>조건(condition)</code>이 <code>참(true)</code>인 경우 명령문을 실행합니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// condition이 true 인경우 해당 블록의 명령문 수행</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="else"><a href="#else" class="header-anchor">#</a> else</h3> <p><code>조건(condition)</code>이 <code>거짓(false)</code>인 경우 명령문을 실행합니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// condition이 true 인경우 해당 블록의 명령문 수행</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token comment">// condition이 false 인경우 해당 블록의 명령문 수행</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="else-if"><a href="#else-if" class="header-anchor">#</a> else if</h3> <p><code>else if (다중조건)</code>을 사용하여, 여러개의 조건을 확인 할 수 있다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>condition1<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// condition1이 true일 경우 해당 블록 명령문 수행</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>condition2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// condition2이 true일 경우 해당 블록 명령문 수행</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>condition3<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// condition3이 true일 경우 해당 블록 명령문 수행</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>condition4<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// condition4이 true일 경우 해당 블록 명령문 수행</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 위 모든 조건이 false일 경우 해당 명령문 수행</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="switch문"><a href="#switch문" class="header-anchor">#</a> switch문</h2> <p><code>switch</code>문은 <code>표현식</code>의 값을 <code>case</code>절에 일치시키고 해당 <code>case</code>와 관련된 명령문을 수행합니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> language <span class="token operator">=</span> <span class="token string">'javascript'</span><span class="token punctuation">;</span>
+<span class="token keyword">switch</span> <span class="token punctuation">(</span>job<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'java'</span><span class="token operator">:</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Good!'</span><span class="token punctuation">)</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token string">'css'</span><span class="token operator">:</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Love!'</span><span class="token punctuation">)</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token string">'javascript'</span><span class="token operator">:</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Love!'</span><span class="token punctuation">)</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token operator">:</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'모든 case 절과 일치하지 않다면 해당 명령문 수행'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>job과 일치하는 <code>case</code>절의 명령문을 수행한 후 <code>break</code>명령문을 만나면 <code>switch</code>문을 종료한다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> language <span class="token operator">=</span> <span class="token string">'css'</span><span class="token punctuation">;</span>
+<span class="token keyword">switch</span> <span class="token punctuation">(</span>job<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'java'</span><span class="token operator">:</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Good!'</span><span class="token punctuation">)</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token string">'css'</span><span class="token operator">:</span>
+    <span class="token keyword">case</span> <span class="token string">'javascript'</span><span class="token operator">:</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Love!'</span><span class="token punctuation">)</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token operator">:</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'모든 case 절과 일치하지 않다면 해당 명령문 수행'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>'css' <code>case</code>절에 <code>break</code>가 없음으로 다음 <code>case</code>절 까지 수행 한다.</p> <h2 id="for-for-in-for-of-문"><a href="#for-for-in-for-of-문" class="header-anchor">#</a> for, for...in, for...of 문</h2> <h3 id="for문"><a href="#for문" class="header-anchor">#</a> for문</h3> <p><code>for</code>루프는 정해진 숫자만큼 반복하려 할 때 사용합니다. 그리고 <code>for</code>문 안의 괄호는 <code>초기화</code>, <code>조건식</code>, <code>표현식</code>으로 구성 되어있습니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">명령문 </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>i<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> 번째</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// [출력]</span>
+<span class="token comment">// 명령문 0 번째</span>
+<span class="token comment">// 명령문 1 번째</span>
+<span class="token comment">// 명령문 2 번째</span>
+<span class="token comment">// 명령문 3 번째</span>
+<span class="token comment">// 명령문 4 번째</span>
+</code></pre></div><ol><li><code>let i = 0</code>으로 초기화 한 후,<br></li> <li><code>i &lt; 5</code>조건식이 만족하면<br></li> <li><code>console.log('...')</code>명령문을 수행하고<br></li> <li><code>i++</code> 표현식을 수행합니다.</li> <li>그리고 다시 <code>2</code>번을 반복 수행을 하다가 <code>조건식(i &lt; 5)</code>이 거짓이면 <code>for</code>문이 종료됩니다.</li></ol> <h3 id="for-in-문"><a href="#for-in-문" class="header-anchor">#</a> for ... in 문</h3> <p>object에 있는 항목들을 반복적으로 반환하여 '무언가'를 할 수 있게 해줍니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> object <span class="token operator">=</span> <span class="token punctuation">{</span> a<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> b<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span> c<span class="token operator">:</span> <span class="token number">3</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> property <span class="token keyword">in</span> object<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>property<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>object<span class="token punctuation">[</span>property<span class="token punctuation">]</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 출력:</span>
+<span class="token comment">// &quot;a: 1&quot;</span>
+<span class="token comment">// &quot;b: 2&quot;</span>
+<span class="token comment">// &quot;c: 3&quot;</span>
+</code></pre></div><h3 id="for-of"><a href="#for-of" class="header-anchor">#</a> for ... of</h3> <p>반복가능한 객체 (Array, Map, Set, String, TypedArray, arguments 객체 등을 포함)에 대해서 반복하고 각 개별 속성값에 대해 실행되는 문이 있는 사용자 정의 반복 후크를 호출하는 루프를 생성합니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> array1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> element <span class="token keyword">of</span> array1<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>element<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// expected output: </span>
+<span class="token comment">// &quot;a&quot;</span>
+<span class="token comment">// &quot;b&quot;</span>
+<span class="token comment">// &quot;c&quot;</span>
+
+</code></pre></div><h2 id="while-do-while-문"><a href="#while-do-while-문" class="header-anchor">#</a> while, do...while 문</h2> <h3 id="while"><a href="#while" class="header-anchor">#</a> while</h3> <p>while문은 조건문이 참일 때 실행되는 반복문이다. 조건은 문장안이 실행되기 전에 참, 거짓을 판단한다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> n <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  n<span class="token operator">++</span><span class="token punctuation">;</span>      <span class="token comment">// n = n + 1</span>
+  x <span class="token operator">+=</span> n<span class="token punctuation">;</span>   <span class="token comment">// x = x + n </span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+<span class="token comment">// 출력</span>
+<span class="token comment">// 3</span>
+<span class="token comment">// 6</span>
+</code></pre></div><h3 id="do-while"><a href="#do-while" class="header-anchor">#</a> do...while</h3> <p>do...while문은 조건문이 참일 때 실행되는 반복문이다. 단 최초 한번은 무조건 수행이됨.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> result <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">do</span> <span class="token punctuation">{</span>
+  i <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  result <span class="token operator">=</span> result <span class="token operator">+</span> i<span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// expected result: &quot;12345&quot;</span>
+</code></pre></div><h2 id="continue"><a href="#continue" class="header-anchor">#</a> continue</h2> <p>continue 문은 현재 반복에서 명령문의 실행을 종료하고 반복문의 처음으로 돌아가여 루프문의 다음 코드를 실행합니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> text <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">===</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">continue</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  text <span class="token operator">=</span> text <span class="token operator">+</span> i<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// expected output: &quot;012456789&quot;</span>
+</code></pre></div><h2 id="break"><a href="#break" class="header-anchor">#</a> break</h2> <p>break 문은 현재 반복문, switch 문, 또는 label 문을 종료하고, 그 다음 문으로 프로그램 제어를 넘깁니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> <span class="token number">6</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">===</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">break</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  i <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// expected output: 3</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/javascript-guide/basic/operator.html" class="prev">
+        연산자
+      </a></span> <span class="next"><a href="/javascript-guide/basic/function.html">
+        함수
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/javascript-guide/assets/js/app.fce3bf5b.js" defer></script><script src="/javascript-guide/assets/js/2.422c5bd4.js" defer></script><script src="/javascript-guide/assets/js/11.fe5e8688.js" defer></script>
+  </body>
+</html>

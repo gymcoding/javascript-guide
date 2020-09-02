@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>변수, 상수 | Learning Javascript</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/javascript-guide/assets/css/0.styles.1fcc4f54.css" as="style"><link rel="preload" href="/javascript-guide/assets/js/app.fce3bf5b.js" as="script"><link rel="preload" href="/javascript-guide/assets/js/2.422c5bd4.js" as="script"><link rel="preload" href="/javascript-guide/assets/js/16.6506d6da.js" as="script"><link rel="prefetch" href="/javascript-guide/assets/js/10.5247b8d9.js"><link rel="prefetch" href="/javascript-guide/assets/js/11.fe5e8688.js"><link rel="prefetch" href="/javascript-guide/assets/js/12.e1953971.js"><link rel="prefetch" href="/javascript-guide/assets/js/13.533becc6.js"><link rel="prefetch" href="/javascript-guide/assets/js/14.fe943368.js"><link rel="prefetch" href="/javascript-guide/assets/js/15.402c8616.js"><link rel="prefetch" href="/javascript-guide/assets/js/17.0093b53f.js"><link rel="prefetch" href="/javascript-guide/assets/js/18.cff6554c.js"><link rel="prefetch" href="/javascript-guide/assets/js/19.bb0e9b25.js"><link rel="prefetch" href="/javascript-guide/assets/js/20.ae3c206c.js"><link rel="prefetch" href="/javascript-guide/assets/js/21.aa9912df.js"><link rel="prefetch" href="/javascript-guide/assets/js/22.03a61835.js"><link rel="prefetch" href="/javascript-guide/assets/js/23.e5978985.js"><link rel="prefetch" href="/javascript-guide/assets/js/3.20b9dd30.js"><link rel="prefetch" href="/javascript-guide/assets/js/4.21364b9e.js"><link rel="prefetch" href="/javascript-guide/assets/js/5.8fbc0b2d.js"><link rel="prefetch" href="/javascript-guide/assets/js/6.8e0730b1.js"><link rel="prefetch" href="/javascript-guide/assets/js/7.40087019.js"><link rel="prefetch" href="/javascript-guide/assets/js/8.c9175806.js"><link rel="prefetch" href="/javascript-guide/assets/js/9.ada1d228.js">
+    <link rel="stylesheet" href="/javascript-guide/assets/css/0.styles.1fcc4f54.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/javascript-guide/" class="home-link router-link-active"><!----> <span class="site-name">Learning Javascript</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/javascript-guide/" class="nav-link">
+  홈
+</a></div><div class="nav-item"><a href="/javascript-guide/guide/" class="nav-link">
+  가이드
+</a></div><div class="nav-item"><a href="/javascript-guide/config/" class="nav-link">
+  설치
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/javascript-guide/" class="nav-link">
+  홈
+</a></div><div class="nav-item"><a href="/javascript-guide/guide/" class="nav-link">
+  가이드
+</a></div><div class="nav-item"><a href="/javascript-guide/config/" class="nav-link">
+  설치
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/javascript-guide/guide.html" class="sidebar-link">Introduction</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>자바스크립트 기초</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/javascript-guide/basic/variable.html" aria-current="page" class="active sidebar-link">변수, 상수</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/javascript-guide/basic/variable.html#변수" class="sidebar-link">변수</a></li><li class="sidebar-sub-header"><a href="/javascript-guide/basic/variable.html#상수" class="sidebar-link">상수</a></li><li class="sidebar-sub-header"><a href="/javascript-guide/basic/variable.html#식별자-이름" class="sidebar-link">식별자 이름</a></li><li class="sidebar-sub-header"><a href="/javascript-guide/basic/variable.html#네이밍-규칙-rule" class="sidebar-link">네이밍 규칙(Rule)</a></li></ul></li><li><a href="/javascript-guide/basic/datatype.html" class="sidebar-link">데이터 타입</a></li><li><a href="/javascript-guide/basic/operator.html" class="sidebar-link">연산자</a></li><li><a href="/javascript-guide/basic/control.html" class="sidebar-link">제어문</a></li><li><a href="/javascript-guide/basic/function.html" class="sidebar-link">함수</a></li><li><a href="/javascript-guide/basic/scope.html" class="sidebar-link">스코프</a></li><li><a href="/javascript-guide/basic/array.html" class="sidebar-link">배열과 배열처리</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>객체지향 프로그래밍</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>3주차</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>4주차</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>5주차</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="변수-상수-데이터-타입"><a href="#변수-상수-데이터-타입" class="header-anchor">#</a> 변수, 상수, 데이터 타입</h1> <h2 id="변수"><a href="#변수" class="header-anchor">#</a> 변수</h2> <p>변수란 간단히 값을 담는 그릇 입니다.
+변수라는 이름이 암시하듯 값은 언제든 바뀔 수 있습니다.
+변수를 선언할 때는 <code>let</code>이라는 키워드로 변수를 선언합니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> currentTempC <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>      <span class="token comment">// 섭씨온도 변수선언 후 초기값 20 할당</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>currentTempC<span class="token punctuation">)</span>   <span class="token comment">// 20</span>
+currentTempC <span class="token operator">=</span> <span class="token number">22.5</span>         <span class="token comment">// 섭씨온도 변수의 값을 22.5로 변경</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>currentTempC<span class="token punctuation">)</span>   <span class="token comment">// 22.5</span>
+</code></pre></div><p><code>let</code>은 변수 선언에만 쓰이고, 각 변수는 한 번만 선언할 수 있습니다.</p> <div class="custom-block tip"><p class="custom-block-title">let 키워드는 ES6에서 새로 생겼습니다. ES6 이전에는 var키워드만 사용할 수 있었습니다.</p> <br></div> <p>변수를 선언할 때 꼭 초기값을 지정해야 하는 건 아닙니다. 초기값을 할당하지 않으면 암시적으로 특별한 값 <code>undefined</code>가 할당됩니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> targetTempC<span class="token punctuation">;</span>            <span class="token comment">// 암시적으로 undefined가 할당됨</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>targetTempC<span class="token punctuation">)</span>    <span class="token comment">// undefined</span>
+</code></pre></div><p><code>let</code>키워드 하나에서 변수 여러 개를 선언할 수 있습니다.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> targetTempC<span class="token punctuation">,</span> name <span class="token operator">=</span> <span class="token string">'홍길동'</span><span class="token punctuation">,</span> age <span class="token operator">=</span> <span class="token number">25</span><span class="token punctuation">;</span>     <span class="token comment">// 변수 세 개를 선언</span>
+<span class="token comment">// targetTempC = undefined (암시적 할당)</span>
+<span class="token comment">// name = '홍길동'</span>
+<span class="token comment">// age = 25</span>
+</code></pre></div><h2 id="상수"><a href="#상수" class="header-anchor">#</a> 상수</h2> <p>상수는 ES6에서 새로 생겼습니다. 상수도 변수와 마찬가지로 값을 할당받을 수 있지만, <strong>한 번 할당한 값을 바꿀 수는 없습니다.</strong></p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> <span class="token constant">ROOM_TEMP_C</span> <span class="token operator">=</span> <span class="token number">21.5</span><span class="token punctuation">,</span> <span class="token constant">MAX_TEMP_C</span> <span class="token operator">=</span> <span class="token number">30</span><span class="token punctuation">;</span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">상수는 ES6에서 새로 생겼습니다.</p> <br></div> <h2 id="식별자-이름"><a href="#식별자-이름" class="header-anchor">#</a> 식별자 이름</h2> <p>변수와 상수, 함수 이름을 식별자(identifier)라 부릅니다. 그리고 식별자에는 규칙이 있습니다.</p> <ul><li>식별자는 반드시 글자나 달러 기로($), 밑줄(_)로 시작해야 합니다.</li> <li>식별자에는 글자와 숫자, 달러 기호, 밑줄만 쓸 수 있습니다.</li> <li>𝒳나 𝒴 같은 유니코드 문자도 쓸 수 있습니다.</li> <li>예약어는 식별자로 쓸 수 없습니다(부록 A에 예약어를 정리했습니다).</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> <span class="token number">2</span>number <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>    <span class="token comment">// [X] 식별자 맨 앞에 숫자가 올 수 없음</span>
+<span class="token keyword">let</span> $number <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>    <span class="token comment">// [O]</span>
+<span class="token keyword">let</span> _number <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>    <span class="token comment">// [O]</span>
+<span class="token keyword">let</span> number2 <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>    <span class="token comment">// [O]</span>
+</code></pre></div><h2 id="네이밍-규칙-rule"><a href="#네이밍-규칙-rule" class="header-anchor">#</a> 네이밍 규칙(Rule)</h2> <p>자바스크립트 식별자 네이밍 규칙은 여러 가지가 있지만, 가장 널리 쓰는 두 가지는 다음과 같습니다.</p> <ul><li><p><strong>카멜 케이스(Camel Case)</strong><br>
+currentTempC, anIdentifierName등은 카멜 케이스에 따라 이름을 지은 겁니다. 카멜 이란 이름은 중간중간의 대문자가 낙타의 혹처럼 보인다고 해서 붙었습니다.
+<br></p></li> <li><p><strong>스네이크 케이스(Snake Case)</strong><br>
+current_temp_c, an_identifier_name 등은 스네이크 케이스에 따라 이름을 지은 겁니다. 스네이크 케이스는 카멜 케이스보다는 조금 덜 쓰입니다.
+<br></p></li> <li><p><strong>케밥 케이스(Kebab Case)</strong><br>
+예) current-temp-c, an-identifier-name
+<br></p></li> <li><p><strong>파스칼 케이스(Pascal Case)</strong><br>
+예) CurrentTempC, AnIdentifierName</p></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/javascript-guide/guide.html" class="prev">
+        Introduction
+      </a></span> <span class="next"><a href="/javascript-guide/basic/datatype.html">
+        데이터 타입
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/javascript-guide/assets/js/app.fce3bf5b.js" defer></script><script src="/javascript-guide/assets/js/2.422c5bd4.js" defer></script><script src="/javascript-guide/assets/js/16.6506d6da.js" defer></script>
+  </body>
+</html>
