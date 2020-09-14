@@ -49,6 +49,14 @@ module.exports = {
     ],
     sidebar: [
       '/guide',
+      
+      {
+        title: '사전설치',
+        collapsable: true,
+        children: [
+          '/oop',
+        ]
+      },
       {
         title: '자바스크립트 기초',
         collapsable: false,
@@ -63,6 +71,21 @@ module.exports = {
         ]
       },
       {
+        title: '브래우저의 자바스크립트',
+        collapsable: true,
+        children: [
+          '/oop/',
+        ]
+      },
+      {
+        title: 'JSON 다루기',
+        collapsable: true,
+        children: [
+          '/json/',
+          '/json/json-object',
+        ]
+      },
+      {
         title: '객체지향 프로그래밍',
         collapsable: true,
         children: [
@@ -70,14 +93,14 @@ module.exports = {
         ]
       },
       {
-        title: '3주차',
+        title: '비동기 프로그래밍',
         collapsable: true,
         children: [
           '/chapter3/',
         ]
       },
       {
-        title: '4주차',
+        title: '제이쿼리',
         collapsable: true,
         children: [
           '/chapter4/',

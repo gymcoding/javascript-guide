@@ -184,3 +184,6 @@ while (i < 6) {
 console.log(i);
 // expected output: 3
 ```
+
+## 예외처리
+ㅂㅈ애ㅑㅓ
